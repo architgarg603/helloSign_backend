@@ -20,7 +20,7 @@ $(async () => {
   options.uid = urlParams.get("uid");
   let res;
   if (!urlParams.get("uid")) {
-    res = await axios.post("https://hellosigns.herokuapp.com/call/connect", {
+    res = await axios.post("https://hellosigns.herokuapp.com/connect", {
       mail: "architgarg603@gmail.com",
     });
   }
@@ -58,7 +58,7 @@ $("#join-form").submit(async function (e) {
 });
 $("#leave").click(function (e) {
   leave();
-  window.location.href = "https://hellosign.netlify.app/";
+  window.location.href = "https://hellosign.netlify.app/leaderboard";
 });
 async function join() {
   // Add an event listener to play remote tracks when remote user publishes.
