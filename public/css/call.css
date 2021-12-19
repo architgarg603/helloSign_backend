@@ -93,6 +93,10 @@
     bottom: 10px;
     left: 30px;
     width: 100px;
+    color: #3BA6F2;
+    border: 1px solid #3BA6F2;
+    border-radius: 15px;
+    background-color: white;
   }
   #join{
     display: none;
@@ -102,13 +106,13 @@
     width: 100% !important;
   }
   #main{
-    width: 70vw;
+    width: 90vw;
       background-color: gainsboro;
       border-radius: 15px;
       height: calc( 100vh - 200px );
       position: absolute;
-      left: 20vw;
-      top: 75px;
+      left: 5vw;
+      top: 100px;
   }
   .head{
     width: 100%;
@@ -117,12 +121,29 @@
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    width: 70vw;
+    width: 90vw;
     background-color: gainsboro;
     border-radius: 15px;
     height: calc( 100vh - 200px );
     position: absolute;
-    left: 20vw;
-    top: 115px;
+    left: 5vw;
+      top: 100px;
   
+  }
+
+  .header{
+    height: 65px;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    color: #3BA6F2;
+    background-color: #F2F6F9;
+padding: 13px 30px;
+font-family: 'Varela Round', sans-serif;
+  }
+
+  .line{
+    background-color: gainsboro;
+    height: 2px;
+    width: 100%;
   }
