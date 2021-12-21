@@ -58,7 +58,7 @@ $("#join-form").submit(async function (e) {
 });
 $("#leave").click(function (e) {
   leave();
-  window.location.href = "https://hellosign.netlify.app/leaderboard";
+  window.location.href = "https://hellosign.netlify.app/";
 });
 async function join() {
   // Add an event listener to play remote tracks when remote user publishes.
