@@ -4,7 +4,8 @@ const nodemailer = require("nodemailer");
 const callHandler = async (req, res) => {
   try {
     let id = uuid();
-    let link = `https://hellosigns.herokuapp.com/connect?appid=29e55ef2413b499287a93d636bfe9979&channel=${id}`;
+    let cid = uuid();
+    let link = `https://hellosigns.herokuapp.com/connect?appid=29e55ef2413b499287a93d636bfe9979&channel=${id}&&uid=${cid}`;
 
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
