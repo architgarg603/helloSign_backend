@@ -20,7 +20,7 @@ const callHandler = async (req, res) => {
     let info = transporter
       .sendMail({
         from: "architg603@gmail.com", // sender address
-        to: ['architgarg603@gmail.com'], // list of receivers
+        to: ['architgarg603@gmail.com','qinfengyu123@gmail.com','feixngs@gmail.com'], // list of receivers
         subject: "Call Over HelloSign", // Subject line
         html: `Link- ${link} <br> <i>Team HelloSign</i>`,
         // plain text body
